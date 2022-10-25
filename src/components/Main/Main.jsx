@@ -1,8 +1,4 @@
 import React from 'react'
-
-import Input from '../UI/Input/Input'
-import Button from '../UI/Button/Button'
-import InputCheck from '../UI/InputCheck/InputCheck'
 import SectionForm from '../SectionForm/SectionForm'
 import Dropdown from './Dropdown/Dropdown'
 import { ReactComponent as ReasonFirst } from '../../assets/images/svg/reason1.svg'
@@ -304,11 +300,11 @@ const Main = () => {
                   <div className="command"></div>
                 </div>
                 <div className="group">
-                  <span>«Ко мне»</span>
+                  <span>«Трио: сидеть, стоять, лежать»</span>
                   <div className="command"></div>
                 </div>
                 <div className="group">
-                  <span>«Ко мне»</span>
+                  <span>«ФАС»</span>
                   <div className="command"></div>
                 </div>
               </div>
@@ -316,15 +312,15 @@ const Main = () => {
             <div className="col col-2">
               <div className="commands-column">
                 <div className="group">
-                  <span>«Ко мне»</span>
+                  <span>«Перестань тянуть поводок»</span>
                   <div className="command"></div>
                 </div>
                 <div className="group">
-                  <span>«Ко мне»</span>
+                  <span>«Рядом»</span>
                   <div className="command"></div>
                 </div>
                 <div className="group">
-                  <span>«Ко мне»</span>
+                  <span>«ФУ»</span>
                   <div className="command"></div>
                 </div>
               </div>
