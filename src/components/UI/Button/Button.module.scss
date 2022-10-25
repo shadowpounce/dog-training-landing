@@ -1,0 +1,41 @@
+@import '../../../assets/styles/variables';
+
+.button {
+  width: 282px;
+  height: 70px;
+  padding: 12px 0 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  background-color: $blue;
+  box-shadow: 4px 4px 20px rgba(9, 3, 93, 0.1);
+  border-radius: 4px;
+  white-space: all;
+  cursor: pointer;
+  transition: all 0.35s ease;
+
+  @media (max-width: 767.8px) {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  br {
+    @media (max-width: 767.8px) {
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      display: block;
+    }
+  }
+
+  &:active {
+    background-color: #030848;
+  }
+
+  &:hover {
+    background-color: $dark-violet;
+  }
+}
