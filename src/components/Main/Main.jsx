@@ -14,7 +14,6 @@ import line from '../../assets/images/pictures/line.png'
 import './Main.scss'
 
 window.addEventListener('scroll', () => {
-  console.log(window.pageYOffset)
   if (window.pageYOffset >= 120) {
     document.querySelector('nav').classList.add('fixedNav')
   } else if (window.pageYOffset < 120) {
